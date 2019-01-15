@@ -6,15 +6,15 @@ class Person
     @candy_lover = candy_lover
   end
 
-  def tall?
+  def tall
     true
   end
 
-  def basketball_player?
+  def basketball_player
     false
   end
 
-  def likes_candy?
+  def likes_candy
     true
   end
 
@@ -24,6 +24,9 @@ class Person
     else
       10.times do
         "not a ballin candy lover"
+      end
     end
   end
-end
+
+
+end #end of class
